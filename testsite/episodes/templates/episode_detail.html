@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+{% block extra_css %}
+    <link rel="stylesheet" href="{% static 'css/episodes.css' %}" />
+{% endblock extra_css %}
+
+{% block content %}
+    <h1>{{ episode.title }}</h1>
+    <p><img src="{{ episode.hero_image.url }}" /></p>
+    <ul class="reaction-list">
+        {% for reaction in reactions %}
+            <li class="reaction-item">
+            {% if reaction.image %}
+                <img src="{{ reaction.image.url }}" />
+            {% else %}
+                {{ reaction.text }}
+            {% endif %}
+                <span class="reaction-created">{{ reaction.user.username }}, {{ reaction.created_at }}</span>
+            </li>
+        {% endfor %}
+    </ul>
+{% endblock content %}

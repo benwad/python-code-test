@@ -1,0 +1,474 @@
+[
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "model": "logentry",
+    "app_label": "admin"
+  },
+  "pk": 1
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "model": "permission",
+    "app_label": "auth"
+  },
+  "pk": 2
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "model": "group",
+    "app_label": "auth"
+  },
+  "pk": 3
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "model": "user",
+    "app_label": "auth"
+  },
+  "pk": 4
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "model": "contenttype",
+    "app_label": "contenttypes"
+  },
+  "pk": 5
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "model": "session",
+    "app_label": "sessions"
+  },
+  "pk": 6
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "model": "episode",
+    "app_label": "episodes"
+  },
+  "pk": 7
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "model": "imagereaction",
+    "app_label": "reactions"
+  },
+  "pk": 8
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "model": "tweetreaction",
+    "app_label": "reactions"
+  },
+  "pk": 9
+},
+{
+  "model": "episodes.episode",
+  "fields": {
+    "hero_image": "./seinfeld-s1_2.jpg",
+    "created_at": "1989-07-05T21:00:00Z",
+    "episode_number": 1,
+    "title": "The Seinfeld Chronicles"
+  },
+  "pk": 3
+},
+{
+  "model": "episodes.episode",
+  "fields": {
+    "hero_image": "./seinfeld-george.png",
+    "created_at": "1990-05-01T21:00:00Z",
+    "episode_number": 2,
+    "title": "The Stake Out"
+  },
+  "pk": 4
+},
+{
+  "model": "episodes.episode",
+  "fields": {
+    "hero_image": "./seinfeld.jpg",
+    "created_at": "1990-06-07T21:00:00Z",
+    "episode_number": 3,
+    "title": "The Robbery"
+  },
+  "pk": 5
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add log entry",
+    "codename": "add_logentry",
+    "content_type": 1
+  },
+  "pk": 1
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change log entry",
+    "codename": "change_logentry",
+    "content_type": 1
+  },
+  "pk": 2
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete log entry",
+    "codename": "delete_logentry",
+    "content_type": 1
+  },
+  "pk": 3
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add permission",
+    "codename": "add_permission",
+    "content_type": 2
+  },
+  "pk": 4
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change permission",
+    "codename": "change_permission",
+    "content_type": 2
+  },
+  "pk": 5
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete permission",
+    "codename": "delete_permission",
+    "content_type": 2
+  },
+  "pk": 6
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add group",
+    "codename": "add_group",
+    "content_type": 3
+  },
+  "pk": 7
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change group",
+    "codename": "change_group",
+    "content_type": 3
+  },
+  "pk": 8
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete group",
+    "codename": "delete_group",
+    "content_type": 3
+  },
+  "pk": 9
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add user",
+    "codename": "add_user",
+    "content_type": 4
+  },
+  "pk": 10
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change user",
+    "codename": "change_user",
+    "content_type": 4
+  },
+  "pk": 11
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete user",
+    "codename": "delete_user",
+    "content_type": 4
+  },
+  "pk": 12
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add content type",
+    "codename": "add_contenttype",
+    "content_type": 5
+  },
+  "pk": 13
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change content type",
+    "codename": "change_contenttype",
+    "content_type": 5
+  },
+  "pk": 14
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete content type",
+    "codename": "delete_contenttype",
+    "content_type": 5
+  },
+  "pk": 15
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add session",
+    "codename": "add_session",
+    "content_type": 6
+  },
+  "pk": 16
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change session",
+    "codename": "change_session",
+    "content_type": 6
+  },
+  "pk": 17
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete session",
+    "codename": "delete_session",
+    "content_type": 6
+  },
+  "pk": 18
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add episode",
+    "codename": "add_episode",
+    "content_type": 7
+  },
+  "pk": 19
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change episode",
+    "codename": "change_episode",
+    "content_type": 7
+  },
+  "pk": 20
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete episode",
+    "codename": "delete_episode",
+    "content_type": 7
+  },
+  "pk": 21
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add image reaction",
+    "codename": "add_imagereaction",
+    "content_type": 8
+  },
+  "pk": 22
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change image reaction",
+    "codename": "change_imagereaction",
+    "content_type": 8
+  },
+  "pk": 23
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete image reaction",
+    "codename": "delete_imagereaction",
+    "content_type": 8
+  },
+  "pk": 24
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add tweet reaction",
+    "codename": "add_tweetreaction",
+    "content_type": 9
+  },
+  "pk": 25
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change tweet reaction",
+    "codename": "change_tweetreaction",
+    "content_type": 9
+  },
+  "pk": 26
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete tweet reaction",
+    "codename": "delete_tweetreaction",
+    "content_type": 9
+  },
+  "pk": 27
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "last_login": "2017-05-23T11:20:56.110Z",
+    "email": "wadben@gmail.com",
+    "last_name": "",
+    "is_staff": true,
+    "user_permissions": [],
+    "password": "pbkdf2_sha256$20000$ua5xYJH0ofUP$Ow7d9BOAvG05D0LI/LL/jpksMhrm6drCx5iCC9JMSko=",
+    "is_active": true,
+    "first_name": "",
+    "is_superuser": true,
+    "date_joined": "2017-05-23T11:20:56.110Z",
+    "username": "ben",
+    "groups": []
+  },
+  "pk": 1
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "last_login": null,
+    "email": "",
+    "last_name": "",
+    "is_staff": false,
+    "user_permissions": [],
+    "password": "pbkdf2_sha256$20000$5onNyJXthBKf$avIxcbxAsTpw6p/aiq2Ir4ypzXHAOwT3v2jUTE9HFhw=",
+    "is_active": true,
+    "first_name": "",
+    "is_superuser": false,
+    "date_joined": "2017-05-23T11:50:56.140Z",
+    "username": "alice",
+    "groups": []
+  },
+  "pk": 2
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "last_login": null,
+    "email": "",
+    "last_name": "",
+    "is_staff": false,
+    "user_permissions": [],
+    "password": "pbkdf2_sha256$20000$09vIj0kzGieb$IGXh8G6xTHFBbMalYdI2BthmqMczFs9XRi2tZt2jWig=",
+    "is_active": true,
+    "first_name": "",
+    "is_superuser": false,
+    "date_joined": "2017-05-23T11:51:05.394Z",
+    "username": "bob",
+    "groups": []
+  },
+  "pk": 3
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "last_login": null,
+    "email": "",
+    "last_name": "",
+    "is_staff": false,
+    "user_permissions": [],
+    "password": "pbkdf2_sha256$20000$jX2sgwm1ILqI$APoFg4EPlUhW4Sp0BcmrRwhMB29IKFqqbMQ/eU6bRiw=",
+    "is_active": true,
+    "first_name": "",
+    "is_superuser": false,
+    "date_joined": "2017-05-23T11:51:14.105Z",
+    "username": "mallory",
+    "groups": []
+  },
+  "pk": 4
+},
+{
+  "model": "reactions.imagereaction",
+  "fields": {
+    "image": "./avatar_97f0063048a3_96.png",
+    "user": 4,
+    "created_at": "1989-07-06T07:00:00Z",
+    "episode": 3,
+    "deleted": false
+  },
+  "pk": 4
+},
+{
+  "model": "reactions.imagereaction",
+  "fields": {
+    "image": "./thumbs-up-sign.png",
+    "user": 3,
+    "created_at": "1989-07-06T09:00:00Z",
+    "episode": 3,
+    "deleted": false
+  },
+  "pk": 5
+},
+{
+  "model": "reactions.imagereaction",
+  "fields": {
+    "image": "./smiley-face-thumbs-down-clipart-aceRqezki.gif",
+    "user": 4,
+    "created_at": "1989-07-06T07:30:00Z",
+    "episode": 3,
+    "deleted": true
+  },
+  "pk": 6
+},
+{
+  "model": "reactions.tweetreaction",
+  "fields": {
+    "text": "A show about nothing?",
+    "user": 3,
+    "created_at": "1989-07-06T06:00:00Z",
+    "episode": 3,
+    "deleted": false
+  },
+  "pk": 5
+},
+{
+  "model": "reactions.tweetreaction",
+  "fields": {
+    "text": "Great bassline in the theme tune",
+    "user": 2,
+    "created_at": "1989-07-06T08:00:00Z",
+    "episode": 3,
+    "deleted": false
+  },
+  "pk": 6
+}
+]

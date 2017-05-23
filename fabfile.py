@@ -19,3 +19,8 @@ def make_migrations():
 
 def requirements():
     local('/home/ubuntu/.virtualenvs/code-test/bin/pip install -r requirements.txt ')
+
+
+def reset_database():
+    run_manage('flush --noinput')
+    run_manage('loaddata fixtures/initial_data.json')
